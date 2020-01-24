@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4544dc1535c4055a14ccd3a3b9668c, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  InputLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  EnvironmentPrefab: {fileID: 114164595388430174, guid: 68b75050151874579a726d95016106be,
+    type: 2}
+  UIPrefab: {fileID: 114985983296771250, guid: fabc749abe2354b77875ac3b1cf4bdf8, type: 2}
+  RedColor: {r: 0.9843137, g: 0.007843138, b: 0.02745098, a: 1}
+  GreenColor: {r: 0.06666667, g: 0.5019608, b: 0.2509804, a: 1}
+  BlueColor: {r: 0.2627451, g: 0.30588236, b: 0.92941177, a: 1}
+  EnemiesToWin: 20
+  PlayerPrefab: {fileID: 114730152885659380, guid: 54e41ead0c25b4fe4befd36313179bfb,
+    type: 2}
+  StartingColor: 1
+  ShotCooldown: 0.3
+  BulletPrefab: {fileID: 114511173465323894, guid: 6f85f49bb0d984072877f6d6d7b2d826,
+    type: 2}
+  BulletSpeed: 2
+  BulletExpirationTime: 15
+  PoolPrewarmAmount: 20
+  EnemyConfig: {fileID: 11400000, guid: 68685c38448ad41288ded7179b34b824, type: 2}
+  ColorConfig: {fileID: 11400000, guid: b770d3c91e0324dbf957c0e43988b78b, type: 2}
+  SpawnCircleRadius: 10
+  SpawnRate: 2
+  GrowRate: 0.6
+  BlowThreshold: 5
+  ErrorMultiplier: 20

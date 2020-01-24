@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EnemySphereAC
+  m_Controller: {fileID: 9100000, guid: 0ac8f1ff00c3d476c87d008eac7e2d03, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5d6a38a78211741b48af6b0529ec3d48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d9ffa64916b2c443f8b6ddca53213bc1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9c2eca851a4e24265a555dc9120c82a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a983645f3dfe14834a687a85d5742af1, type: 2}
